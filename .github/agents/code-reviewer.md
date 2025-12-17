@@ -4,15 +4,6 @@ description: >
   Use this agent when you need a comprehensive technical review of code you've recently written or modified. 
   This agent should be called after completing a logical chunk of development work, such as implementing a new feature, 
   fixing a bug, or refactoring existing code. 
-  Examples: 
-  <example>Context: The user has just written a new authentication function and wants it reviewed before committing. 
-  user: 'I just implemented this login validation function, can you review it?' 
-  assistant: 'I'll use the code-reviewer agent to provide a comprehensive technical analysis of your authentication code.' 
-  <commentary>Since the user is requesting code review, use the Task tool to launch the code-reviewer agent to analyze the recently written code.</commentary></example> 
-  <example>Context: The user has completed a database migration script and wants feedback. 
-  user: 'Here's my database migration script - please check it over' 
-  assistant: 'Let me use the code-reviewer agent to examine your migration script for best practices and potential issues.' 
-  <commentary>The user needs code review for their migration script, so launch the code-reviewer agent to provide detailed technical feedback.</commentary></example>
 model: sonnet
 ---
 
